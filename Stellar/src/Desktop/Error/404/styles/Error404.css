@@ -1,0 +1,75 @@
+#error404Container {
+  display: flex;
+  justify-content: center;
+  background-color: #F9FAFC;
+  height: 100%;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+#imgContainer {
+  position: relative;
+}
+
+#errorTitle {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+  position: absolute;
+  top: 275px;
+  left: 230px;
+  line-height: 200px;
+
+  font-family: 'FuturaBook';
+  font-weight: normal;
+  font-size: 250px;
+  color: #5579EE;
+}
+
+#errorSubTitle {
+  position: absolute;
+  top: 490px;
+  left: 357px;
+
+  font-family: 'FuturaBook';
+  font-weight: normal;
+  font-size: 41px;
+  color: #5579EE;
+}
+
+#homeLink {
+  display: block;
+  background-color: #04d1cd;
+  border: 6px solid rgba(167, 239, 238, 1);
+  border-radius: 25px;
+  position: absolute;
+  bottom: 40px;
+  left: 440px;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+
+  text-align: center;
+  text-decoration: none;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+}
+
+#errorButtonLabel {
+  position: absolute;
+  bottom: 100px;
+  left: 465px;
+
+  font-family: 'FuturaHeavy';
+  font-size: 16px;
+  font-weight: normal;
+  color: #5579EE;
+}
+
+/*******/
+@media screen and (max-width: 1154px) {
+  #error404Container{
+  }
+}

@@ -1,0 +1,48 @@
+
+.outOfMatchesCard {
+  width: 312px;
+  border-radius: 10px;
+  border: 1px dashed black;
+  background-color: transparent;
+
+  box-shadow: 0 0 2px 2px rgb(226,227,231);
+  height: 575px;
+  position: relative;
+  text-align: center;
+}
+
+.outOfMatchesIcon {
+  height: 60px;
+  position: relative;
+  top: 60px;
+}
+
+.outOfMatchesTitle {
+  position: relative;
+  top: 100px;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 30px;
+  color: #5D70F1;
+}
+
+.outOfMatchesText{
+  position: absolute;
+  bottom: 175px;
+  margin: 0 30px;
+  text-align: left;
+
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 16px;
+  color: #6b7c93;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.searchPreferencesLink {
+  text-decoration: none;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 16px;
+  color: #5D70F1;
+}

@@ -1,0 +1,49 @@
+
+#fpContainer {
+  padding: 30px;
+  width: 100%
+}
+
+#fpContentContainer {
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+#fpLookingForContainer {
+  display: flex;
+  padding: 10px 7px;
+  margin-bottom: 7.5px;
+}
+
+.fpLookingForCheckBoxWrapper {
+  width: 60px;
+  text-align: center;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+#ffContainer {
+  height: 270px;
+  overflow-y: auto;
+}
+
+.fpSubTitle {
+  font-family: 'AvenirLTStd-Medium';
+  color: #5579EE;
+  font-size: 14px;
+  letter-spacing: 0.73px;
+}
+
+.fpLookingForCheckBoxLabel {
+  height: 30px;
+  margin-top: 10px;
+
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 12px;
+  color: #5579EE;
+  letter-spacing: 0.62px;
+}

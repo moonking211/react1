@@ -1,0 +1,17 @@
+
+#active-chat-windows-wrapper {
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  right: 290px;
+}
+
+#active-chat-windows {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: relative;
+  height: 50px;
+}

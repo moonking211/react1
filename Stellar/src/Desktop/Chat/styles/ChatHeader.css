@@ -1,0 +1,60 @@
+
+.chatHeaderContainer {
+  display: flex;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.chatHeader {
+  color: rgb(158,158,158);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 73px;
+}
+
+.chatHeader > * {
+  margin-right: 10px;
+}
+
+.activeChatUserFirstName {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(21, 21, 22, 0.5);
+  letter-spacing: 0.5px;
+}
+
+.activeChatUserAstrologySign {
+  height: 20px;
+}
+
+.activeChatUserThumbnailWrapper {
+  position: relative;
+}
+
+.activeChatUserThumbnail {
+  height: 52px;
+}
+
+.activeChatUserThumbnailFavoriteIcon {
+  position: absolute;
+  top: 20px;
+  right: -4px;
+
+  height: 12px;
+  width: 12px;
+}
+
+.menuContainer{
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon {
+  height: 25px;
+  cursor: pointer;
+}

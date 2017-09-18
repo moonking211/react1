@@ -1,0 +1,58 @@
+#subItemContainer{
+  border: 1px solid #04D1CD;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+#subItemHeader{
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: #04D1CD;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+#subItemList {
+  list-style-type: none;
+  width: 100%;
+}
+
+.subItemListItem {
+  position: relative;
+}
+
+.subItemListImage {
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+
+.subItemListText {
+  display: inline;
+  font-family: 'AvenirLTStd-Book';
+  font-size: 10px;
+  color: #5579EE;
+}
+
+.subItemListText strong {
+  font-family: 'AvenirLTStd-Roman';
+}
+
+#price{
+  margin-top: 5px;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 12px;
+  color: #4B84EA;
+}

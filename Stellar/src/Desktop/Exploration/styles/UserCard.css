@@ -1,0 +1,76 @@
+
+.cardContainer{
+  position: relative;
+  box-shadow: 0 0 2px 2px rgb(226,227,231);
+  border-radius: 10px;
+  width: 312px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.cardButton{
+  background-color: rgb(93,112,241);
+  display: inline-flex;
+  height: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cardButtonsContainer{
+  height: 65px;
+  display: flex;
+}
+
+.cardButtonsSeparator{
+  width: 1px;
+  height: 100%;
+}
+
+.signImg{
+  margin-left: 15px;
+  height: 25px;
+}
+
+.cardTextContainer{
+  margin: 25px;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+}
+.nameContainer a {
+  text-decoration: none;
+  font-family: 'AvenirLT-95-Black';
+  font-size: 16px;
+  color: #5579EE;
+}
+
+.locationContainer{
+  margin-left: 1px;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 10px;
+  color: #04d1cd;
+}
+
+.cardBioContainer{
+  margin-top: 20px;
+  height: 100px;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 16px;
+  color: #6b7c93;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.favouriteIcon{
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  cursor: pointer;
+}

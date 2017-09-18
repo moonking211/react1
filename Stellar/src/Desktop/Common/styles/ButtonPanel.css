@@ -1,0 +1,10 @@
+.buttonPanelButton {
+  cursor: pointer;
+  width: 76px;
+  margin-bottom: 20px;
+}
+
+#buttonPanelContainer {
+  text-align: center;
+  padding-top: 23px;
+}

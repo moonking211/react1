@@ -1,0 +1,114 @@
+#ncContainer {
+  width: 400px;
+  padding-top: 35px;
+}
+
+.piVisibleContainer {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 12px;
+}
+
+.piVisibleContainer > * {
+  margin-right: 15px;
+}
+
+.planetImageWrapper {
+  width: 25px;
+  text-align: center;
+}
+
+.piContainer {
+  width: 350px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.piTitle {
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  color: #6b7c93;
+  letter-spacing: 0.07px;
+}
+
+.line {
+  border: 1px solid rgb(237,238,242);
+}
+
+.piVisibleContainer > .line:first-child {
+  width: 60px;
+}
+
+.piVisibleContainer > .line:nth-child(4) {
+  flex-grow: 1;
+}
+
+.piVisibleContainer > .line:last-child {
+  width: 30px;
+}
+
+#planetItemsContainer {
+  margin-left: 25px;
+  padding-right: 55px;
+  margin-top: 25px;
+  height: 570px;
+  overflow-y: auto;
+}
+
+.detailsContainer {
+  padding: 10px 60px;
+}
+
+.detailsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 14px;
+  color: #6b7c93;
+  letter-spacing: 0.07px;
+}
+
+.detailsHeader > span{
+  margin-right: 10px;
+}
+
+.detailsContent{
+  margin: 20px 0;
+  text-align: justify;
+
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  color: #6b7c93;
+  letter-spacing: 0.07px;
+  line-height: 22px;
+}
+
+.piArrow{
+  cursor: pointer;
+}
+
+.planetInSignWrapper {
+  width: 60px;
+  display: flex;
+}
+
+.planetImage {
+  height: 24px;
+}
+
+.planetInAstroLine {
+  margin: auto;
+  flex: 1;
+
+  border: 0.1px solid #5579EE;
+  opacity: 0.5;
+}
+
+.astroSignImage {
+  height: 24px;
+}

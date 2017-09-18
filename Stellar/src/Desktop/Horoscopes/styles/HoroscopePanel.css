@@ -1,0 +1,87 @@
+.underlined{
+  border-bottom: 2px solid #5D70F1;
+}
+
+.lightPinkText{
+  color: rgb(187,201,248);
+}
+
+#hpContainer{
+  border: 1px solid rgb(250,250,252);
+  width: 700px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+#hpLinksContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.dotLinkContainer{
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotLink {
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.selected {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(85, 121, 238, 1);
+}
+
+.notSelected {
+  font-family: 'AvenirLTStd-Medium';
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(85, 121, 238, 1);
+}
+
+.notSelectedUnderline {
+  height: 10px;
+}
+
+#hpMidContainer{
+  margin: auto 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horoscopeAstrologySymbol {
+  height: 54px;
+}
+
+#horoscopeDate {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  color: #04d1cd;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#horoscopeText {
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  color: #6b7c93;
+  letter-spacing: 0.02px;
+  line-height: 19px;
+
+  text-align: justify;
+  padding: 0 33px;
+}

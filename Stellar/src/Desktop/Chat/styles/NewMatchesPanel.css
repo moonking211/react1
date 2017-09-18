@@ -1,0 +1,14 @@
+
+.newMatchesPanelTitle{
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 18px;
+  color: #5579EE;
+}
+
+.newMatchesPanelContainer{
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  margin-bottom: 10px;
+}

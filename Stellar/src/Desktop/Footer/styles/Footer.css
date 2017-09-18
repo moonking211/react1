@@ -1,0 +1,52 @@
+
+#footerContainer{
+    width: 300px;
+    margin: 40px auto;
+}
+
+#footerLogo{
+    display: block;
+    margin: 0 auto;
+}
+
+#footerTextLinksContainer{
+    display: flex;
+}
+
+.footerTextLink{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'AvenirLTStd-Medium';
+    font-weight: normal;
+    font-size: 16px;
+    color: #6b7c93;
+}
+
+#footerImageLinksContainer{
+    width: 150px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMediaLogo {
+    margin: 0 25px;
+    height: 20px;
+}
+
+#footerCopyrightText {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(107, 124, 147, 0.35);
+  margin: auto;
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+
+#global-chat-footer {
+  width: 100%;
+
+  position: fixed;
+  bottom: 0;
+}
+
+#global-chat-footer-container {
+  position: relative;
+}

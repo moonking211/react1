@@ -1,0 +1,104 @@
+
+#ppContainer{
+  width: 375px;
+  padding: 20px;
+  border: 1px solid #f3f4f8;
+  border-top: none;
+  border-bottom: none;
+}
+
+.ppSectionContainer{
+  margin-top: 20px;
+  width: 360px;
+}
+
+#ppHeaderContainer{
+  position: relative;
+  width: 100%;
+}
+
+#ppHeaderContentContainer{
+  width: 225px;
+  padding: 15px;
+  display: inline-block;
+}
+
+#ppNameContainer{
+  position: relative;
+}
+
+#ppNameContainer img {
+  height: 29px;
+  position: absolute;
+}
+
+#ppGenderIcon {
+  top: -2px;
+  right: 55px;
+}
+
+.ppAstrologyIcon {
+  top: -2px;
+  right: 0;
+}
+
+.ppHeaderMainText{
+  position: relative;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 20px;
+  color: #6b7c93;
+}
+
+.ppHeaderSubText{
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  color: #04d1cd;
+}
+
+.ppLookingForImages img {
+  height: 22px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.ppSectionHeaderContainer>img{
+  cursor: pointer;
+  height: 14px;
+}
+
+#ppLookingforContainer{
+  margin-top: 20px;
+}
+
+.ppSectionHeaderContainer{
+  display: flex;
+  padding-right: 10px;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 18px;
+  color: #04d1cd;
+}
+
+.ppSectionHeaderContainer>span{
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+.ppSectionContentContainer{
+  padding-right: 30px;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: normal;
+  font-size: 14px;
+  color: #979797;
+}
+
+#ppContainer textarea, #ppContainer input {
+  font-family: 'AvenirLTStd-Roman';
+  font-size: 14px;
+  color: #979797;
+  letter-spacing: 0.17px;
+  margin-top: 0;
+}

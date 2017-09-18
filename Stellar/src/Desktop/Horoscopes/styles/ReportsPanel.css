@@ -1,0 +1,49 @@
+
+#rpContainer {
+  padding: 30px;
+  border: 1px solid rgb(250,250,252);
+}
+
+#reportContainer {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 2px 2px rgb(226,227,231);
+}
+
+#rpPaginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rpPaginationContainer > * {
+  margin: 5px;
+  cursor: pointer;
+}
+
+#reportContainer > div:nth-child(2) {
+  height: 425px;
+  overflow-y: auto;
+}
+
+.reportPanelTitle {
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 18px;
+  color: #5D70F1;
+
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  letter-spacing: 0;
+}
+
+.reportPanelContent {
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  color: #6b7c93;
+  letter-spacing: 0.07px;
+  line-height: 22px;
+
+  text-align: justify;
+  padding: 15px 50px;
+}

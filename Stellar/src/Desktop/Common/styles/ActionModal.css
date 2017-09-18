@@ -1,0 +1,100 @@
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 1500; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.modal-container {
+  height: 300px;
+  width: 400px;
+  position: fixed;
+  top: 315px;
+  left: 650px;
+  display: none;
+  z-index: 2000;
+}
+
+.action-modal {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  background-color: white;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.action-modal-icon {
+  height: 30px;
+  position: relative;
+  top: 25px;
+}
+
+.action-modal-title {
+  font-family: AvenirLTStd-Roman;
+  font-weight: bold;
+  font-size: 22px;
+  color: #5D70F1;
+  letter-spacing: 0.19px;
+
+  position: relative;
+  top: 40px;
+}
+
+.action-modal-text {
+  font-family: AvenirLTStd-Roman;
+  font-weight: normal;
+  font-size: 18px;
+  color: #5D70F1;
+  letter-spacing: 0.19px;
+
+  position: relative;
+  top: 85px;
+  margin: 0 30px;
+}
+
+.action-modal-button-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-modal-button {
+  font-family: AvenirLTStd-Roman;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.17px;
+  border-radius: 100px;
+
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+
+  cursor: pointer;
+}
+
+.action-modal-button-blue {
+  background-color: #5D70F1;
+  border: 8px solid rgb(217, 221, 249);
+}
+
+.action-modal-button-light-blue {
+  background-color: #4DDFDC;
+  border: 8px solid rgb(213, 245, 244);
+}

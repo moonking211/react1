@@ -1,0 +1,53 @@
+
+#chat-buddy-list {
+  width: 250px;
+
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #E8E6E6;
+  box-shadow: 0 2px 17px 0 rgba(135, 135, 135, 0.15);
+
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+#chat-buddy-list-header {
+  height: 50px;
+  background-color: #04D1CD;
+  border-radius: 5px 5px 0 0;
+
+  cursor: pointer;
+}
+
+#chat-buddy-list-title {
+  margin-left: 15px;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+}
+
+#chat-buddy-list-body {
+  background-color: white;
+}
+
+#buddy-list-items {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+#chat-buddy-list-search-wrapper {
+  height: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+#chat-buddy-list-search {
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid #04D1CD;
+  border-radius: 100px;
+}

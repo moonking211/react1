@@ -1,0 +1,33 @@
+
+#picpanContainer{
+  padding: 30px;
+  height: 550px;
+}
+
+#picpanSelectedPicContainer{
+  display: flex;
+  align-items: center;
+}
+
+#picpanSelectedPicContainer>img:nth-child(2){
+  margin: auto 15px;
+}
+
+#picpanSelectedPicContainer>img:not(:nth-child(2)){
+  cursor: pointer;
+}
+
+#picpanEmptyPicContainer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.emptyPicture{
+  border: 1px dashed #5d70f1;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(158, 169, 247, 0.2);
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+
+.profile-thumbnail-with-mask {
+  display: inline-block;
+  position: relative;
+}
+
+.profile-mask {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: 500;
+}
+
+.profile-thumbnail {
+  height: 90%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+
+  position: absolute;
+  z-index: 750;
+}

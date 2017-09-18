@@ -1,0 +1,62 @@
+#chatFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chatInput{
+  border: 2px solid rgba(37,214,210, 0.76);
+  border-radius: 100px;
+
+  width: 540px;
+  height: 44px;
+
+  font-family: 'AvenirLTStd-Medium' !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  color: rgba(21, 21, 22, 0.5);
+
+  margin-right: 12px !important;
+  padding-left: 20px !important;
+  text-align: left !important;
+}
+
+#chatAddIcon {
+  height: 45px;
+  cursor: pointer;
+}
+
+#chatInput::-webkit-input-placeholder {
+  color: rgba(21, 21, 22, 0.5);
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+#chatInput:-moz-placeholder {
+  /* FF 4-18 */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+#chatInput::-moz-placeholder {
+  /* FF 19+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+#chatInput:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+}

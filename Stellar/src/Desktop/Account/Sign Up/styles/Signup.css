@@ -1,0 +1,135 @@
+#signupContainer{
+  display: flex;
+  justify-content: center;
+  background-color: #F9FAFC;
+  height: 100%;
+  align-items: center;
+}
+
+#imgContainer{
+  position: relative;
+}
+
+#formContainer{
+  width: 300px;
+  height: 534px;
+  background-color: white;
+  position: absolute;
+  left: 525px;
+  top: 240px;
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 5px;
+  padding-top: 20px;
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}
+
+#submit{
+  background-color: #05D1CB;
+  border: 4px solid #81E6E7;
+  border-radius: 25px;
+  position: absolute;
+  top: 935px;
+  left: 563px;
+  color: white;
+  width: 230px;
+  height: 50px;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+#linksContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #5D70F1;
+  height: 30px;
+  line-height: 30px;
+}
+
+#linksContainer a {
+  text-decoration: none;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: normal;
+  font-size: 18px;
+  color: #5579EE;
+}
+
+#signinLink{
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#signupLink{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#signupContainer input, #signupContainer select {
+  border-radius: 25px;
+  background-color: #f9fafc;
+  border: 1px solid #d6dffc;
+  height: 38px;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  outline: none;
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  padding-left:10px;
+}
+
+#signupContainer textarea {
+  border-radius: 15px;
+  background-color: #f9fafc;
+  border: 1px solid #d6dffc;
+  height: 50px;
+  width: 80%;
+  margin: 10px auto;
+  outline: none;
+  color: #5D70F1;
+  text-align: center;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  padding-left:10px;
+}
+
+#fbButton{
+    cursor: pointer;
+}
+
+*::-webkit-input-placeholder {
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}

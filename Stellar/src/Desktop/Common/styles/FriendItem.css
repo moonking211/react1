@@ -1,0 +1,42 @@
+.fiContainer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(21, 21, 22, 0.5);
+  letter-spacing: 0.5px;
+}
+
+.fiContainer>*{
+  margin-right: 15px;
+}
+
+.fiContainer>img:last-child{
+  position: absolute;
+  right: 21px;
+
+  cursor: pointer;
+}
+
+.userIconWrapper {
+  position: relative;
+}
+
+.userIcon {
+  width: 52px;
+}
+
+.favoriteIcon {
+  height: 15px;
+  position: absolute;
+  top: 18px;
+  right: -5px;
+}
+
+.fiAstrologySymbolIcon {
+  height: 20px;
+}

@@ -1,0 +1,48 @@
+
+.upContainer {
+  padding: 15px 2px 0 25px;
+  margin-right: 2px;
+  width: 100%;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+
+  flex: 3;
+}
+
+.upchatHeaderContainer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.activeChatPanelTitle {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 18px;
+  color: #5579EE;
+  letter-spacing: 0.93px;
+}
+
+.unreadMessageBadge {
+  width: 20px;
+  height: 20px;
+  background-color: #04d1cd;
+  border-radius: 10px;
+  margin-left: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 0.31px;
+}
+
+.userItemsContainer {
+  overflow-y: auto;
+  height: 350px;
+  padding-right: 30px;
+}
+

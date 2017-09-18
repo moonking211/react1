@@ -1,0 +1,46 @@
+
+#viewPicturePanelContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#viewUserPictureContainer {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+#userPicture {
+  margin: auto 15px;
+  width: 370px;
+}
+
+#viewPicturePanelCompatibilityContainer {
+  background-color: rgba(93, 112, 241, 0.8);
+  width: 300px;
+  padding: 10px 35px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: normal;
+  font-size: 12px;
+  color: white;
+  text-align: justify;
+  line-height: 21px;
+  letter-spacing: 0.14px;
+}
+
+#viewPicturePanelCompatibilityContainer > img {
+  margin-bottom: 10px;
+}

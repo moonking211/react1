@@ -1,0 +1,172 @@
+
+.roundedLink{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+}
+
+#homeSignupLink{
+  background-color: #04d1cd;
+  border: 6px solid rgba(94, 113, 113, 0.4);
+  border-radius: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 16px;
+}
+
+#subHeaderContainer{
+  background-image: url("../../images/WhatsApp.png");
+  background-size: cover;
+  height: 900px;
+  padding: 70px 100px;
+  color: white;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 26px;
+}
+@media screen and (max-width: 990px) {
+  /*#subHeaderContainer{
+    background-image: url("../../images/WhatsApp.png");
+    background-size: contain;
+    height: auto;
+    padding: 70px 100px;
+    color: white;
+    font-family: 'AvenirLTStd-Medium';
+    font-size: 26px;
+  }*/
+}
+#subHeaderContainer h1 {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+}
+
+#pressBanner {
+  height: 175px;
+  width: 100%;
+}
+
+.purpleHeaderTitle{
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 36px;
+  color: #5D70F1;
+}
+
+.purpleHeader{
+  font-family: 'AvenirLTStd-Roman';
+  font-size: 24px;
+    font-weight: bold;
+  color: #5D70F1;
+}
+
+li{
+  width: 350px;
+  color: #1fd5d1;
+  font-size: 28px;
+}
+
+.infoText{
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  color: #6b7c93;
+}
+
+#phone1Img{
+  display: block;
+  margin: 35px auto 110px auto;
+}
+
+#phone2Img{
+  align-self: center;
+}
+
+#instructionOne{
+  margin: 40px auto 200px 80px;
+}
+
+#instructionTwo{
+  margin-bottom: 230px;
+}
+
+#instructionThree{
+  margin-left: 80px;
+}
+
+#instructionsContainer{
+  width: 500px;
+}
+
+#instructionsMainContainer{
+  display: flex;
+  justify-content: center;
+}
+
+#featuresPanelContainer{
+  background-color: rgb(243,244,248);
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+
+#featuresContainer{
+  width: 950px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.featureContainer{
+  margin: auto 30px;
+}
+
+.imgFeature{
+  display: block;
+  margin: 0 auto;
+  height: 55px;
+}
+
+.featureHeaderText {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 32px;
+  color: #4B74FF;;
+  margin-bottom: 0;
+}
+
+.featureContainer p {
+  font-family: 'AvenirLTStd-Medium';
+  font-weight: normal;
+  font-size: 16px;
+  color: #6b7c93;
+}
+
+
+/*******/
+.homeContainer{
+  overflow-x: hidden;
+}
+#instructionsMainContainer_small{
+  display: none;
+}
+@media screen and (max-width: 990px) {
+  #instructionsMainContainer{
+    display: none;
+  }
+  #instructionsMainContainer_small{
+    display: block;
+  }
+  #instructionsMainContainer_small #instructionsContainer{
+    width: auto;
+  }
+  #instructionsMainContainer_small #instructionsContainer ol li{
+    margin: auto !important;
+  }
+
+  #featuresContainer {
+    display: block;
+    width: auto;
+  }
+  #featuresContainer p{
+    text-align: center;
+  }
+}

@@ -1,0 +1,105 @@
+.subscription-item {
+  width: 275px;
+  height: 450px;
+  z-index: 10000;
+  padding: 20px 0;
+  position: relative;
+
+  background-color: white;
+  border: 1px solid #04D1CD;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.subscription-item:nth-child(2) {
+  height: 475px;
+}
+
+.trial-header {
+  height: 40px;
+  width: 275px;
+  position: absolute;
+  top: -40px;
+
+  line-height: 40px;
+  text-align: center;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.19px;
+  color: white;
+
+  background-color: #04D1CD;
+  border: 1px solid #04D1CD;
+  border-radius: 3px 3px 0 0;
+}
+
+.upgrade-button {
+  width: 185px;
+  height: 30px;
+  z-index: 33333;
+
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.19px;
+  color: white;
+
+  background-color: #04D1CD;
+  border: 6px solid #C8F3F3;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.subscription-package-title {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  color: #5D70F1;
+  font-size: 20px;
+  letter-spacing: 0.24px;
+}
+
+.subscription-package-icon {
+  height: 97px;
+}
+
+.subscription-price {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  color: #4B84EA;
+  font-size: 16px;
+  letter-spacing: 0.19px;
+}
+
+.included-item-list {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.included-item {
+  font-family: 'AvenirLTStd-Roman';
+  color: #5579EE;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+}
+
+.included-item-check {
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+
+.included-item-text {
+  display: inline;
+  margin-left: 6px;
+}

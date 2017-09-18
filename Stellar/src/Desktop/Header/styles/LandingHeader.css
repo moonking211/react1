@@ -1,0 +1,30 @@
+#landingHeaderContainer{
+    display: flex;
+    align-items: center;
+    height: 110px;
+    padding: 0 100px;
+}
+
+#landingHeaderLogoContainer{
+    margin-right: auto;
+}
+
+.landingHeaderLink {
+    color: #4B74FF;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'AvenirLTStd-Medium';
+    font-size: 14px;
+}
+
+#landingSigninLink {
+    font-family: 'AvenirLTStd-Medium';
+    font-size: 14px;
+    background-color: #5d70f1;
+    border: 8px solid #dfe2fc;
+    border-radius: 25px;
+    margin: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+

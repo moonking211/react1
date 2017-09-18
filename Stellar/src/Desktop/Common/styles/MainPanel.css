@@ -1,0 +1,33 @@
+#mainContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#childrenContainer {
+  margin: 75px auto;
+  display: inline-flex;
+  background-color: white;
+  box-shadow: 0 0 2px 2px rgb(226,227,231);
+}
+
+#leftPanelContainer {
+  width: 100px;
+}
+
+.verticalText {
+  transform-origin: left top 0;
+  width: 450px;
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 48px;
+  color: #5D70F1;
+}
+
+.panelTitle {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 18px;
+  color: #5579ee;
+  letter-spacing: 0.93px;
+}

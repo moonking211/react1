@@ -1,0 +1,90 @@
+.uiContainer {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+
+  margin: 25px 0;
+
+  cursor: pointer;
+}
+
+.nameStatusContainer {
+  display: flex;
+  flex-direction: column;
+  color: rgb(158,158,158);
+
+  width: 150px;
+  margin-left: 15px;
+
+  position: relative;
+}
+
+.timeRemainingContainer {
+  background-color: #5D70F1;
+  width: 100px;
+  height: 28px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.17px;
+}
+
+.uiThumbnailWrapper {
+  position: relative;
+  width: 95px;
+  height: 95px;
+}
+
+.uiThumbnail {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.uiThumbnailFavoriteIcon {
+  height: 20px;
+  position: absolute;
+  top: 37px;
+  right: -7.5px;
+}
+
+.firstName {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(21, 21, 22, 0.5);
+  letter-spacing: 0.5px;
+}
+
+.uiUnreadMessagesIcon {
+  height: 12px;
+  width: 12px;
+
+  margin-left: 10px;
+
+  border-radius: 100px;
+  background-color: #04D1CD;
+}
+
+.firstNameAndUnreadIconWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lastMessageStatus {
+  font-family: 'AvenirLTStd-Book';
+  font-size: 14px;
+  color: rgba(21, 21, 22, 0.5);
+  letter-spacing: 0.44px;
+
+  overflow: hidden;
+}

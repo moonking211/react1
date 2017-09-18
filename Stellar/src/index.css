@@ -1,0 +1,123 @@
+/* Futura Fonts */
+@font-face {
+  font-family: 'Futura';
+  src: url('./fonts/futura/futur.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('./fonts/futura/Futura Bold font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaBoldItalic';
+  src: url('./fonts/futura/Futura Bold Italic font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaHeavy';
+  src: url('./fonts/futura/Futura Heavy font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaHeavyItalic';
+  src: url('./fonts/futura/Futura Heavy Italic font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaBook';
+  src: url('./fonts/futura/Futura Book font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaExtraBlack';
+  src: url('./fonts/futura/Futura Extra Black font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaLightBT';
+  src: url('./fonts/futura/futura light bt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('./fonts/futura/Futura Light font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaLightItalic';
+  src: url('./fonts/futura/Futura Light Italic font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaMediumBT';
+  src: url('./fonts/futura/futura medium bt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaMediumCondensedBT';
+  src: url('./fonts/futura/futura medium condensed bt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaMediumItalic';
+  src: url('./fonts/futura/Futura Medium Italic font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaXBlkBT';
+  src: url('./fonts/futura/Futura XBlk BT.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaTT';
+  src: url('./fonts/futura/tt0205m_.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaBUnicode';
+  src: url('./fonts/futura/unicode.futurab.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaBBUnicode';
+  src: url('./fonts/futura/unicode.futurabb.ttf') format('truetype');
+}
+
+/* Avenir Fonts */
+@font-face {
+  font-family: 'AvenirLT-95-Black';
+  src: url('./fonts/Avenir/avenir-lt-95-black-5872822a02c8e.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url('./fonts/Avenir/AvenirLTStd-Book.otf');
+}
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url('./fonts/Avenir/AvenirLTStd-Light.otf');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url('./fonts/Avenir/AvenirLTStd-Medium.otf');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url('./fonts/Avenir/AvenirLTStd-Roman.otf');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('./fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'AvenirLT-95-Black';
+  background-color: white;
+}

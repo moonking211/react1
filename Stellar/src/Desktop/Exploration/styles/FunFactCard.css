@@ -1,0 +1,32 @@
+
+.funFactCard{
+    height: 575px;
+    position: relative;
+}
+
+.funFactBackground{
+    position: relative;
+    height: 575px;
+}
+
+.funFactAstrologySymbol {
+    position: absolute;
+    top: 150px;
+    left: 113px;
+
+    width: 84px;
+    height: 84px;
+}
+
+.funFactText{
+    position: absolute;
+    bottom: 175px;
+    margin: 0 65px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'AvenirLTStd-Medium';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 28px;
+}

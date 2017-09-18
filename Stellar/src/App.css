@@ -1,0 +1,78 @@
+#appContainer{
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.purpleText{
+  color: #5D70F1;
+}
+
+.tealText{
+  color: #04d1cd;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.grayBackground {
+  background-color: #f3f4f8;
+}
+
+textarea {
+  border-radius: 15px;
+  background-color: #f9fafc;
+  border: 1px solid #d6dffc;
+  outline: none;
+
+  height: 75px;
+  width: 80%;
+  margin: 10px auto;
+  padding-left:10px;
+
+  color: #5D70F1;
+  text-align: left;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}
+
+input, select {
+  border-radius: 25px;
+  background-color: #f9fafc;
+  border: 1px solid #d6dffc;
+  outline: none;
+
+  height: 38px;
+  width: 80%;
+  margin: 10px auto;
+  padding-left:10px;
+
+  text-align: left;
+  color: #5D70F1;
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+}

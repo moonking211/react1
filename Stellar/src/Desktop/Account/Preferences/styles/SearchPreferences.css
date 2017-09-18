@@ -1,0 +1,7 @@
+#searchPreferencesContainer {
+  display: flex;
+}
+
+.searchPreferencesCheckbox{
+  cursor: pointer;
+}

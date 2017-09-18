@@ -1,0 +1,50 @@
+.chat-buddy-list-item {
+  width: 100%;
+  margin: 15px 0;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chat-buddy-list-item > * {
+  margin: 0 10px;
+}
+
+.chat-buddy-thumbnail-wrapper {
+  display: inline-block;
+  position: relative;
+
+  width: 45px;
+  height: 45px;
+}
+
+.chat-buddy-thumbnail-favorite-icon {
+  height: 12px;
+
+  position: absolute;
+  top: 17px;
+  right: -4px;
+  z-index: 750;
+}
+
+.chat-buddy-thumbnail-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 500;
+}
+
+.chat-buddy-first-name {
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(21, 21, 22, 0.5);
+  letter-spacing: 0.5px;
+}
+
+.chat-buddy-astrology-sign {
+  height: 22px;
+}

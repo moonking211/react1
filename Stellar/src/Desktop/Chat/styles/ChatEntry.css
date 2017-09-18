@@ -1,0 +1,51 @@
+
+.chatEntryContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.chatMessageText {
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 14px;
+  color: #556376;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.incomingChatMessage {
+  align-items: flex-start;
+}
+
+.outgoingChatMessage {
+  align-items: flex-end;
+}
+
+.incomingChatMessage > .chatMessageContainer {
+  border-radius: 16px 16px 16px 0;
+  border-color: rgba(93, 112, 241, 0.2);
+}
+
+.outgoingChatMessage > .chatMessageContainer {
+  border-radius: 16px 16px 0 16px;
+  border-color: rgba(54, 218, 215, 0.2);
+}
+
+.chatTime {
+  margin-top: 2px;
+
+  font-family: 'AvenirLTStd-Medium';
+  font-size: 10px;
+  color: black;
+  opacity: 0.3;
+  letter-spacing: 0;
+  line-height: 10px;
+}
+
+.chatMessageContainer {
+  background-color: white;
+  border: 3px solid;
+  display: inline-block;
+  padding: 10px;
+}
+

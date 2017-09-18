@@ -1,0 +1,18 @@
+#emptySubItemContainer{
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: bold;
+  font-size: 10px;
+  color: #04D1CD;
+  border: 1px dashed #04D1CD;
+  width: 150px;
+  height: 252px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#emptySubItemContainer>div{
+  text-align: center;
+}
